@@ -8,6 +8,9 @@ sleep 5
 done
 )&
 
+# 启动 http 代理
+tinyproxy
+
 # 登陆信息持久化处理
 rm /usr/share/sangfor/EasyConnect/resources/conf/easy_connect.json
 touch ~/easy_connect.json
